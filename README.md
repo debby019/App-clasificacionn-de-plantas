@@ -1,5 +1,38 @@
 # App-clasificacionn-de-plantas
-# GreenHouse - Clasificacion de plantas
+# Entrenamiento del Modelo    
+El entrenamiento fue realizado utilizando **Transfer Learning** con **MobileNetV2** y TensorFlow/Keras.
+
+El modelo realiza entrenamiento en dos fases:
+
+1. Entrenamiento de la cabeza de clasificación
+2. Fine-Tuning de las últimas capas de MobileNetV2
+
+
+## Estructura del entrenamiento del modelo
+
+```
+Entrenamiento/
+│
+├── dataset/       # Clases del dataset, aprox 250 img por clase
+│   ├── Aloe_Vera/
+│   ├── Monstera_Deliciosa/
+│   └── Orchid/
+│
+├── train.py       # Entrenamiento del modelo
+├── requirements.txt # Librerias necesarias
+```
+## Requisitos    
+*Python 3.10 o superior
+Instala las dependencias con el sigueinte comando:
+````
+pip install -r requirements.txt
+````
+## Ejecutar entrenamiento    
+Para ejecutar el entrenamiendo ingresa a la carpeta *Entrenamiento* y ejecuta el comando    
+````
+python main.py
+````
+# GreenHouse APP - Clasificacion de plantas
 
 GreenHouse es una aplicacion movil hecha en Flutter que identifica plantas a partir de una imagen. La app puede reconocer:
 
