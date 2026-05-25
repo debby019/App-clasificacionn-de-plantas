@@ -1,0 +1,30 @@
+name: green_house
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.2.1
+  image: ^4.5.4
+  tflite_flutter: ^0.12.1
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/plant.jpg
+    - assets/models/plant_classifier_mobilenetv2_v2.tflite

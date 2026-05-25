@@ -1,0 +1,28 @@
+# Flutter
+green_house/build/
+green_house/.dart_tool/
+green_house/.idea/
+green_house/android/.gradle/
+
+# Python
+backend/venv/
+backend/venv311/
+venv/
+venv311/
+__pycache__/
+*.pyc
+
+# Archivos pesados/generados
+*.apk
+*.aab
+java-cacerts
+maven-repo/
+
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+green_house/android/build/
+avast-root.cer
+*.bak
+notepad .gitignore
